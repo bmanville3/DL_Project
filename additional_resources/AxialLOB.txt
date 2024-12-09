@@ -1,0 +1,71 @@
+------- List Hyper Parameters -------
+epochs   ->   20
+horizon    ->     50
+batch size   ->    64
+Optimizer   ->    SGD (
+Parameter Group 0
+    dampening: 0
+    differentiable: False
+    foreach: None
+    fused: None
+    initial_lr: 0.01
+    lr: 0.01
+    maximize: False
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)
+  5%|▌         | 1/20 [05:11<1:38:42, 311.72s/it]
+model saved at all_models/AxialLOB.pt
+Epoch 1/20, Train Loss: 1.0531,           Validation Loss: 1.0190, Duration: 0:05:11.717573, Best Val Epoch: 0
+ 10%|█         | 2/20 [10:21<1:33:06, 310.37s/it]
+model saved at all_models/AxialLOB.pt
+Epoch 2/20, Train Loss: 0.9445,           Validation Loss: 0.9867, Duration: 0:05:09.427841, Best Val Epoch: 1
+ 15%|█▌        | 3/20 [15:32<1:28:07, 311.04s/it]
+model saved at all_models/AxialLOB.pt
+Epoch 3/20, Train Loss: 0.8759,           Validation Loss: 0.9666, Duration: 0:05:11.833860, Best Val Epoch: 2
+ 20%|██        | 4/20 [20:47<1:23:20, 312.55s/it]
+model saved at all_models/AxialLOB.pt
+Epoch 4/20, Train Loss: 0.8315,           Validation Loss: 0.9241, Duration: 0:05:14.863322, Best Val Epoch: 3
+Turning on additional grads for AxialLOB...
+ 25%|██▌       | 5/20 [26:14<1:19:26, 317.75s/it]
+model saved at all_models/AxialLOB.pt
+Epoch 5/20, Train Loss: 0.8092,           Validation Loss: 0.9018, Duration: 0:05:26.981439, Best Val Epoch: 4
+ 30%|███       | 6/20 [31:40<1:14:47, 320.54s/it]
+model saved at all_models/AxialLOB.pt
+Epoch 6/20, Train Loss: 0.7961,           Validation Loss: 0.8887, Duration: 0:05:25.936039, Best Val Epoch: 5
+ 35%|███▌      | 7/20 [37:07<1:09:53, 322.57s/it]
+model saved at all_models/AxialLOB.pt
+Epoch 7/20, Train Loss: 0.7879,           Validation Loss: 0.8873, Duration: 0:05:26.757437, Best Val Epoch: 6
+ 40%|████      | 8/20 [42:33<1:04:45, 323.76s/it]
+model saved at all_models/AxialLOB.pt
+Epoch 8/20, Train Loss: 0.7817,           Validation Loss: 0.8752, Duration: 0:05:26.302300, Best Val Epoch: 7
+ 45%|████▌     | 9/20 [47:56<59:19, 323.56s/it]  
+model saved at all_models/AxialLOB.pt
+Epoch 9/20, Train Loss: 0.7766,           Validation Loss: 0.8695, Duration: 0:05:23.136634, Best Val Epoch: 8
+ 50%|█████     | 10/20 [53:16<53:42, 322.21s/it]
+Epoch 10/20, Train Loss: 0.7730,           Validation Loss: 0.8879, Duration: 0:05:19.161830, Best Val Epoch: 8
+ 55%|█████▌    | 11/20 [58:39<48:23, 322.64s/it]
+Epoch 11/20, Train Loss: 0.7702,           Validation Loss: 0.8743, Duration: 0:05:23.631700, Best Val Epoch: 8
+ 60%|██████    | 12/20 [1:04:05<43:07, 323.45s/it]
+model saved at all_models/AxialLOB.pt
+Epoch 12/20, Train Loss: 0.7674,           Validation Loss: 0.8588, Duration: 0:05:25.291536, Best Val Epoch: 11
+ 65%|██████▌   | 13/20 [1:09:31<37:50, 324.36s/it]
+Epoch 13/20, Train Loss: 0.7664,           Validation Loss: 0.8647, Duration: 0:05:26.443611, Best Val Epoch: 11
+ 70%|███████   | 14/20 [1:14:58<32:30, 325.14s/it]
+model saved at all_models/AxialLOB.pt
+Epoch 14/20, Train Loss: 0.7637,           Validation Loss: 0.8578, Duration: 0:05:26.939691, Best Val Epoch: 13
+ 75%|███████▌  | 15/20 [1:20:25<27:08, 325.76s/it]
+model saved at all_models/AxialLOB.pt
+Epoch 15/20, Train Loss: 0.7611,           Validation Loss: 0.8563, Duration: 0:05:27.203202, Best Val Epoch: 14
+ 80%|████████  | 16/20 [1:25:52<21:44, 326.07s/it]
+Epoch 16/20, Train Loss: 0.7593,           Validation Loss: 0.8581, Duration: 0:05:26.778486, Best Val Epoch: 14
+ 85%|████████▌ | 17/20 [1:31:15<16:15, 325.06s/it]
+Epoch 17/20, Train Loss: 0.7577,           Validation Loss: 0.8581, Duration: 0:05:22.718298, Best Val Epoch: 14
+ 90%|█████████ | 18/20 [1:36:35<10:47, 323.54s/it]
+Epoch 18/20, Train Loss: 0.7563,           Validation Loss: 0.8576, Duration: 0:05:19.984675, Best Val Epoch: 14
+ 95%|█████████▌| 19/20 [1:41:54<05:22, 322.21s/it]
+Epoch 19/20, Train Loss: 0.7555,           Validation Loss: 0.8568, Duration: 0:05:19.131188, Best Val Epoch: 14
+100%|██████████| 20/20 [1:47:13<00:00, 321.67s/it]
+Epoch 20/20, Train Loss: 0.7550,           Validation Loss: 0.8576, Duration: 0:05:19.088395, Best Val Epoch: 14
+Full time to train: 1:47:13.343064. Average time per epoch: 0:05:21.667153
